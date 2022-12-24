@@ -16,6 +16,9 @@
     height: 100px;
     width: 100px;
   }
+  button {
+    font-size: 18pt;
+  }
 }
 @media screen and (min-width: 768px){
   .paragraph {
@@ -34,6 +37,9 @@
     height: 150px;
     width: 150px;
   }
+  button {
+    font-size: 16pt;
+  }
 }
 @media screen and (min-width: 1024px){
   .paragraph {
@@ -51,5 +57,8 @@
   #imagesBar{
     height: 225px;
     width: 225px;
+  }
+  button {
+    font-size: 14pt;
   }
 }
