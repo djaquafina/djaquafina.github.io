@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+  <html>
+  <!--Header section-->
+  <head>
+  <!--Title section-->
+    <title>DjAquafina Beats</title>
+  <!--Link Css-->
+    <link rel="stylesheet" href="styles.css">
+      <!--Responsive-->
+  <link rel="stylesheet" href="responsive.css" type="text/css" media="all">
+  <!--Icon-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
+   <!--Body section-->
+    <body class="body-img">
+      <h1 id="topheader"><a href="https://djaquafina.github.io/splash"><img class="imgLogo" src="images\DJLogo.png"></a><p id="logo"><i>DjAquafina Beats</i></p></h1>
+      <button class="collapsible">Navigation</button>
+      <div class="content">
+      <div class="topnav">
+      <a href="https://djaquafina.github.io/splash/catalog.html">Works</a>
+      <a href="https://djaquafina.github.io/splash/socials.html">Socials</a>
+      <a class="active" href="https://djaquafina.github.io/splash/beats.html">Beats</a>
+      <a href="https://djaquafina.github.io/splash">Home</a>
+    </div>
+      </div>
+      <section class="title_section">
+        <p class="titleText">Recent Works</p>
+          <div class="column">
+            <br>
+            <img id="imagesBarWorks" src="images\fbf.jpg">
+            <br>
+            <img id="imagesBarWorks" src="images\musk.jpg">
+            <br>
+            <img id="imagesBarWorks" src="images\BBoys.png">
+            <hr style="border: 2px solid rgb(0, 0, 0);">
+        </div>
+        <div class="column">
+          <br>
+          <img id="imagesBarWorks" src="images\rr.jpg">
+          <br>
+          <img id="imagesBarWorks" src="images\want.jpg">
+          <br>
+          <img id="imagesBarWorks" src="images\BBoys.png">
+          <hr style="border: 2px solid rgb(0, 0, 0);">
+         <div class="columnlines">
+        </div>
+      </div>
+      <div class="column">
+        <br>
+        <img id="imagesBarWorks" src="images\poppin.jpg">
+        <br>
+        <img id="imagesBarWorks" src="images\BBoys.png">
+        <br>
+        <img id="imagesBarWorks" src="images\BBoys.png">
+        <hr style="border: 2px solid rgb(0, 0, 0);">
+    </div>
+  </section>
+<!-- footer -->
+<footer>
+  <div id="topfooter">
+    <p id="footerText">&copy; 2022 DjAquafina Beats</p>
+    <p id="footerText">Terms and Conditions</p>
+  </div>
+  </footer>
+	</div>
+
+
+</body>
+</html>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+  </script>
